@@ -254,37 +254,37 @@ function makeMainScaleTexture() {
     );
 
     const bands = [
-        {
-            top: 52,
-            bottom: 194,
-            tickTop: 59,
-            short: 27,
-            mid: 47,
-            long: 69,
-            labelY: 139,
-            font: 25
-        },
-        {
-            top: 220,
-            bottom: 328,
-            tickTop: 227,
-            short: 22,
-            mid: 39,
-            long: 57,
-            labelY: 285,
-            font: 23
-        },
-        {
-            top: 360,
-            bottom: 462,
-            tickTop: 367,
-            short: 21,
-            mid: 38,
-            long: 55,
-            labelY: 425,
-            font: 23
-        }
-    ];
+  {
+    top: 52,
+    bottom: 194,
+    tickTop: 59,
+    short: 27,
+    mid: 47,
+    long: 69,
+    labelY: 135,
+    font: 25
+  },
+  {
+    top: 220,
+    bottom: 328,
+    tickTop: 227,
+    short: 22,
+    mid: 39,
+    long: 57,
+    labelY: 282,
+    font: 23
+  },
+  {
+    top: 360,
+    bottom: 462,
+    tickTop: 367,
+    short: 21,
+    mid: 38,
+    long: 55,
+    labelY: 422,
+    font: 23
+  }
+];
 
     const maxMM = Math.floor(
         (SCALE_TEX_WIDTH - ZERO_PX - 35) /
